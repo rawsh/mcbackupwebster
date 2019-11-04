@@ -1,0 +1,7 @@
+alliance
+cache
+world_nether
+world_the_end
+plugins
+modules
+data
