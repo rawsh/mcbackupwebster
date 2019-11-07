@@ -1,0 +1,61 @@
+portals:
+  portalone:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: rawsh
+    location: 104.0,83.0,-125.0:107.0,86.0,-125.0
+    world: world
+    destination: websterhall
+  portaltwo:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: rawsh
+    location: -239.0,63.0,189.0:-235.0,67.0,189.0
+    world: websterhall
+    destination: world
+  portalthree:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: rawsh
+    location: 112.0,85.0,-125.0:115.0,88.0,-125.0
+    world: world
+    destination: alliance
+  alliancetoworld:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: rawsh
+    location: 129.0,71.0,171.0:132.0,74.0,171.0
+    world: alliance
+    destination: world
+  alliancetowebsterhall:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: rawsh
+    location: 124.0,71.0,171.0:127.0,74.0,171.0
+    world: alliance
+    destination: websterhall
+  websterhalltoalliance:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: rawsh
+    location: -234.0,63.0,189.0:-230.0,67.0,189.0
+    world: websterhall
+    destination: alliance
