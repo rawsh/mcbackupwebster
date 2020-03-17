@@ -21,17 +21,19 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: closed due to corona virus
   minimum-api: none
 spawn-limits:
-  monsters: 70
-  animals: 10
-  water-animals: 15
-  ambient: 15
+  monsters: 45
+  animals: 8
+  water-animals: 4
+  ambient: 2
 chunk-gc:
-  period-in-ticks: 600
+  period-in-ticks: 400
 ticks-per:
+  water-spawns: 2
+  ambient-spawns: 2
   animal-spawns: 400
-  monster-spawns: 1
+  monster-spawns: 2
   autosave: 6000
 aliases: now-in-commands.yml

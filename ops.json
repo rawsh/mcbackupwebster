@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "7c1e4ac5-09f5-4764-b005-1b1e7d6c6826",
+    "name": "rawsh",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

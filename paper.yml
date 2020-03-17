@@ -59,6 +59,11 @@ messages:
     connection-throttle: Connection throttled! Please wait before reconnecting.
 world-settings:
   default:
+    seed-based-feature-search: true
+    portal-create-radius: 16
+    iron-golems-can-spawn-in-air: false
+    entities-target-with-follow-range: false
+    zombie-villager-infection-chance: -1.0
     keep-spawn-loaded: true
     disable-ice-and-snow: false
     skeleton-horse-thunder-spawn-chance: 0.01
@@ -67,7 +72,7 @@ world-settings:
     auto-save-interval: -1
     disable-thunder: false
     armor-stands-do-collision-entity-lookups: true
-    armor-stands-tick: true
+    armor-stands-tick: false
     grass-spread-tick-rate: 4
     bed-search-radius: 1
     nether-ceiling-void-damage-height: 0
@@ -85,7 +90,7 @@ world-settings:
     allow-leashing-undead-horse: false
     baby-zombie-movement-modifier: 0.5
     all-chunks-are-slime-chunks: false
-    mob-spawner-tick-rate: 1
+    mob-spawner-tick-rate: 2
     disable-teleportation-suffocation-check: false
     fixed-chunk-inhabited-time: -1
     use-vanilla-world-scoreboard-name-coloring: false
@@ -98,15 +103,15 @@ world-settings:
     disable-creeper-lingering-effect: false
     filter-nbt-data-from-spawn-eggs-and-related: true
     max-auto-save-chunks-per-tick: 6
-    max-entity-collisions: 8
+    max-entity-collisions: 2
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
-    optimize-explosions: false
+    optimize-explosions: true
     portal-search-radius: 128
     prevent-moving-into-unloaded-chunks: true
     per-player-mob-spawns: false
     anti-xray:
-      enabled: true
+      enabled: false
       engine-mode: 2
       chunk-edge-mode: 2
       max-chunk-section-index: 3
@@ -130,10 +135,12 @@ world-settings:
     generator-settings:
       flat-bedrock: false
     game-mechanics:
+      disable-pillager-patrols: false
+      nerf-pigmen-from-nether-portals: false
       disable-sprint-interruption-on-attack: false
       disable-relative-projectile-velocity: false
       shield-blocking-delay: 5
-      disable-chest-cat-detection: false
+      disable-chest-cat-detection: true
       disable-player-crits: false
       disable-end-credits: false
       disable-unloaded-chunk-enderpearl-exploit: true
@@ -166,7 +173,7 @@ world-settings:
       cactus: 3
       reeds: 3
     alt-item-despawn-rate:
-      enabled: false
+      enabled: true
       items:
         COBBLESTONE: 300
     hopper:
